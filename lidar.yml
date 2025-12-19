@@ -1,0 +1,21 @@
+name: lidar
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - requests
+  - pillow
+  - pyyaml
+  - ipykernel
+  - jupyter
+  - ipywidgets
+  - matplotlib
+  # PyTorch para Mac (se instala la versión CPU/MPS automáticamente)
+  - pytorch
+  - segmentation-models-pytorch
+  - torchvision
+  - opencv
+  - tqdm 
+  - psutil 
